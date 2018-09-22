@@ -7,7 +7,7 @@ class Student < User
     @knowledge = []
   end
 
-  def learn(knowledge)
+  def learn(string)
     knowledge << knowledge
     binding.pry
   end
